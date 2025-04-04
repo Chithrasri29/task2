@@ -1,1 +1,5 @@
-# task2
+Project Title: Guess the Number Game
+The Guess the Number Game is a simple, interactive Java application that challenges users to guess a randomly generated number between 1 and 100. It leverages the Random class to generate the target number and the Scanner class to capture user input from the console.
+Upon launching, the game welcomes the user and explains the objective. The user then enters guesses, which the program compares to the generated number. If the guess is too low or too high, the game provides corresponding feedback—"Too low" or "Too high"—and prompts the user to try again. This process repeats until the correct number is guessed.
+The program keeps track of the number of attempts and, upon a correct guess, congratulates the user and displays the total number of guesses taken. It then terminates the game gracefully by closing the Scanner to prevent resource leaks.
+This project serves as a practical exercise in core Java programming concepts, including loops, conditional statements, user input handling, and control flow. Its interactive nature encourages logical thinking and reinforces fundamental coding skills.
